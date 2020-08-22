@@ -1,0 +1,6 @@
+framework module DxySwift {
+  umbrella header "DxySwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

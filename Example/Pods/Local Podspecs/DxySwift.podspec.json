@@ -1,0 +1,22 @@
+{
+  "name": "DxySwift",
+  "version": "0.1.0",
+  "summary": "A short description of DxySwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/945979125@qq.com/DxySwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "945979125@qq.com": "K0240090@cienet.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/945979125@qq.com/DxySwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DxySwift/Classes/**/*"
+}

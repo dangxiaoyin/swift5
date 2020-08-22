@@ -1,0 +1,27 @@
+PODS:
+  - DxySwift (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DxySwift (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DxySwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DxySwift: 8a010cbc42d6e72cb9039a1638bbb6d3e95e7023
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: db7597bfab4904091a79cb1314ffb8bcf92edb3e
+
+COCOAPODS: 1.9.1
