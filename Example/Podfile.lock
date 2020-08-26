@@ -1,10 +1,20 @@
 PODS:
-  - DxySwift (0.1.0)
+  - DxySwift (0.1.0):
+    - RxCocoa
+    - RxSwift
+    - SnapKit
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - DxySwift (from `../`)
@@ -13,14 +23,22 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   DxySwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DxySwift: 8a010cbc42d6e72cb9039a1638bbb6d3e95e7023
+  DxySwift: c3f02f0257c71188bdd75c15ce09102b3ff7184f
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: db7597bfab4904091a79cb1314ffb8bcf92edb3e
 

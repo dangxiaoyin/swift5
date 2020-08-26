@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DxySwift/Classes/**/*"
+  "source_files": "DxySwift/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ]
+  }
 }

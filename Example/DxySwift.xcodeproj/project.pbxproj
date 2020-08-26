@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33DDBEB4C8E115288B9E4151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5DE09A8A54F6A5E153B058D4 /* DxySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DxySwift.podspec; path = ../DxySwift.podspec; sourceTree = "<group>"; };
+		33DDBEB4C8E115288B9E4151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5DE09A8A54F6A5E153B058D4 /* DxySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DxySwift.podspec; path = ../DxySwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* DxySwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DxySwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		9BF3108C0C6478945A9B27DC /* Pods_DxySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DxySwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BB3B7150A72E406A30BCBD /* Pods-DxySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DxySwift_Example.release.xcconfig"; path = "Target Support Files/Pods-DxySwift_Example/Pods-DxySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BBD94D2AC8DD00FD81888858 /* Pods-DxySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DxySwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-DxySwift_Tests/Pods-DxySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF7B73EBE5979E4D4C3FC78C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF7B73EBE5979E4D4C3FC78C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9CD20B26449AE36B059FE2B /* Pods-DxySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DxySwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DxySwift_Tests/Pods-DxySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE02736494AA51DB35EA42D2 /* Pods_DxySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DxySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				E9CD20B26449AE36B059FE2B /* Pods-DxySwift_Tests.debug.xcconfig */,
 				BBD94D2AC8DD00FD81888858 /* Pods-DxySwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,10 +366,18 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DxySwift_Example/Pods-DxySwift_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DxySwift/DxySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DxySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
