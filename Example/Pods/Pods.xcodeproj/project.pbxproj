@@ -8,70 +8,76 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8A8F0EAAC595176705138EE7FEEC0C /* 029_高级运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31217F905BCBC300EDA03D88C2FB5DA6 /* 029_高级运算符.swift */; };
+		106DCAC5A991B9C04EC0159D02F5898D /* 001_关于swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FC25024D758C827395B4431BB0C9 /* 001_关于swift.swift */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		131972C057B45AB48F9346CE94FF6169 /* 015_继承.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA547BE836CC6A3786502C1129B7DE4 /* 015_继承.swift */; };
+		147203E6F2B3E0A013AB5E7FF26E6AA0 /* 017_析构过程.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFC72C77FC6F04A545F9E9BEDA08F1 /* 017_析构过程.swift */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2174E6630AAAB67769C517C698F30D3D /* 022_扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86359A9E2E5A211EDEFD571386D320 /* 022_扩展.swift */; };
-		2A3ED0F61D3A3632B9C01C182609F08C /* 007_控制流.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB7211162FB37CCF404C6B8A0D64EF /* 007_控制流.swift */; };
-		2D0A02B81B48EBE4731718BC2C842F36 /* 006_集合类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00CD14BC840A6D65D3B08DCD3065FB /* 006_集合类型.swift */; };
+		1C5E119FAF3974EDA10B14F4B5D565B8 /* 026_自动引用计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3EF15C4A3C1CEFC8CEB88B874A6693 /* 026_自动引用计数.swift */; };
+		1F8A4B0177AE5CF3AD43FC0A71BEA2C4 /* 023_协议.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F92492C5ED3D5D0BA6E81F1DB9D60 /* 023_协议.swift */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		320F7347C00F5C99871BC1BE3702B26C /* 010_枚举.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DEB9CC3E2B679679361DCC27E4F12 /* 010_枚举.swift */; };
-		34B956E4A2506CA3FAE7D4AFD345F641 /* 011_类和结构体.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EF82A63428D22C41C88EB5E1418E /* 011_类和结构体.swift */; };
-		3939CD55072193C4DC626BF43D281A04 /* ChildShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B54D0EF3215C4A6E2554D5FEAE8437 /* ChildShape.swift */; };
+		2F3295F8539F96243805F6CB811231DA /* 028_访问控制.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D897E8248212FEFF72596DFCCB6254 /* 028_访问控制.swift */; };
+		31F38CD3993001EAE133F3B039BDC4E1 /* DxySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C960DC1275F126BDB093FFDC2A23FAA2 /* DxySwift-dummy.m */; };
+		339D0FE8B5EF60AB36DA5DE36684D4FA /* 007_控制流.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4B103DDFAFF213F77137DD122949D /* 007_控制流.swift */; };
+		33B7B2DE3DA9C56D4A642A17E361DAAA /* 025_不透明类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D7E89260CC766AC0F3A9C35994CDD /* 025_不透明类型.swift */; };
+		3A2C034BA5FB71FC575E1B713C643EDF /* 014_下标.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB17EE80D86FBB1124D51A7EFD2D7E /* 014_下标.swift */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4227ABC3350E0E9F99C4474608C3DD01 /* 014_下标.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6836C579DF59C20178C68C7A00BB3E29 /* 014_下标.swift */; };
-		46E4AAE4171E951CC774055A851C5376 /* 023_协议.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23CA448CB391A77A102E74D4150F0F /* 023_协议.swift */; };
+		401BD28B54DBE727512C684C94B3E2DD /* Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD099AB394F61D94A7F1E3ECDBDDB961 /* Subscript.swift */; };
+		49C99BE01ACABC9BDA84969C22DD89B5 /* 021_嵌套类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FA4340DE0B681422ED7FDCB5A73BC /* 021_嵌套类型.swift */; };
 		4BDBD9C68F2B50290D36F9BED469AB18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		56CDD319F64D78D034DFD490D73021CF /* 027_内存安全.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709B17413FC06A32C708A2EA90F71B1 /* 027_内存安全.swift */; };
+		55D052F4E5B2F046660792D7B805D4BC /* Grammar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEECB0671C5ADE176A40611F111FFF44 /* Grammar.swift */; };
 		6025960B4BCAC862FA37DDEEE202FD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		647F4D1E1C9B9CCB21789E2B0CCA331E /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C86F963BA76A18FB3A3221C7C95DA87 /* StudentModel.swift */; };
-		694C0A120EF7330A4797498EAE947D1F /* 004_基本运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E4A282CC587A43E32EC66561390B79 /* 004_基本运算符.swift */; };
+		633E865694EEFF9B8E856E42D5EF5382 /* 020_类型转换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070BBF5D42C50D56DC312EB5575BEBB7 /* 020_类型转换.swift */; };
+		63E733F2688C23307D8CFDA158826B9B /* 019_错误处理.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4AC815D72EF7F7DD705D4DF29C424 /* 019_错误处理.swift */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		73935AD93D9D3FC769881B46AE5ACCE0 /* 019_错误处理.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DAC906D94CE454888FF5F9AE5B4493 /* 019_错误处理.swift */; };
-		7A19203745C4CD245CB5F17CB64BBFCB /* Grammar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A6E991222C70172C4CEEEF44271D5 /* Grammar.swift */; };
+		7583BD9BC629CEA9286847CDD857BC53 /* 010_枚举.swift in Sources */ = {isa = PBXBuildFile; fileRef = F754E408B706EC23045C047B298AABA3 /* 010_枚举.swift */; };
+		784FCCBCE1E496FF5C1E642662EA42D2 /* DxySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5D97095CD948F2224DDFDBBF22D977 /* DxySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AB17F5B1F16469938F80B590938FB53 /* Pods-DxySwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EE379D72315FF5F22D0AB39B06B047 /* Pods-DxySwift_Tests-dummy.m */; };
-		7B7A0796370B2C1570AC38605BDFBBA8 /* 024_泛型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C37E82FB3565D8BCC71808F17722F /* 024_泛型.swift */; };
-		7D8130CDA086FBA2104C548977155EEE /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCA0CF1F2F1C6600AC330D8CEA6405 /* Base.swift */; };
-		81EE96685192F0E0E431265C4A5668F2 /* 018_可选链.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB2AC4355DCEF790CED436E38B614A /* 018_可选链.swift */; };
-		83BB26E4A24A31F98FD313F22BC3DD95 /* 005_字符串和字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DE68E8160AA53571359A90D6EC1EE /* 005_字符串和字符.swift */; };
-		849F46C246286B6D4E2B5033C75F864A /* 028_访问控制.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EB6A90BB0EDF624FBE9E3B29698B2E /* 028_访问控制.swift */; };
+		7C6D2263F4A22B973FE018ECBAB64535 /* 015_继承.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB58B23F930F834A90096C1496FD544 /* 015_继承.swift */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8B5625FC3BCF3D5EC9E1D1BA3C99EE6D /* 009_闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E055E87FEB4F461ED9689EBFB1FAD /* 009_闭包.swift */; };
+		88E71A310DC23E3D64C4305F7757241F /* 027_内存安全.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572E31F74ECEEDDB7B75F9FABDE1935 /* 027_内存安全.swift */; };
+		897A26C524AAA691F6005CC832962B12 /* 008_函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED48DAD3C3C4D072E1B441E0DE9E05 /* 008_函数.swift */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		8D33334A6BCA6BBB32D38901B9441BB1 /* DxySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE651EE25EDC5A7F164EF38D1EAEF9FA /* DxySwift-dummy.m */; };
-		8F30497B80D7DE56E24C4B4C6C09DCCF /* 020_类型转换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA81E3977D5835BCF191213096CC7E /* 020_类型转换.swift */; };
+		8D8BAFE8075FD0566E123A3C106C20B8 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9B6CF1F59720F75FD82C2EE4D8775 /* Structure.swift */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94734C2D39247E59182B7306D1AE90AD /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EED0979582D63596139A5A9AD79E98 /* Shape.swift */; };
-		961FA5338D0848986F29F31F7BB672D4 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292CAFA50D423A478990F3EB47FD113D /* Protocol.swift */; };
+		93049217F073F517B1234F05B3FBC9EB /* 005_字符串和字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3057A510ED247A5E50BE9BFBDC841C36 /* 005_字符串和字符.swift */; };
+		974D480A63D00527E8457A99D2279359 /* ErrorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE2204A8EAE8EBC3E1045187C5CF57 /* ErrorHandle.swift */; };
+		98E2E67BDF98BF5F18A2EAB4D5882421 /* Mutating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901BD731348430B5E34786B4A265D10 /* Mutating.swift */; };
+		9A2ACDAD2AF2068770E2483CF35A70C9 /* 004_基本运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AFFA06B5F61640EF7C5E9C7DED178B /* 004_基本运算符.swift */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		9E24F73AFFEDEB8F592F89DF9C132940 /* 021_嵌套类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFC12C1A183BE3EE8788AAB9B954A8 /* 021_嵌套类型.swift */; };
-		9EC9D9E5649846A07F06A761DE5645C1 /* 025_不透明类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593DBE91C595D4647F862EC3A03CDF51 /* 025_不透明类型.swift */; };
-		9F4A24EBCC3FDC9D77065EE0897DD171 /* 002_swift初见.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C1086C6E454924AD5A6DB6122D7D8 /* 002_swift初见.swift */; };
-		A284424B698DC66F3A09B184F21E1958 /* 012_属性.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531E472CDA4C77423B57BA87EDEA076 /* 012_属性.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		ABA3285641C024D42526559D3C7203B5 /* 016_构造过程.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DDC1CF754EA263FE5D911BEBFEF5DF /* 016_构造过程.swift */; };
+		A562A2B09A19E99D226339F80E801049 /* 022_扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF211C7BA2CFBF06BEDC5C58116B37F /* 022_扩展.swift */; };
 		AC4C9CD9A81A49DEA72628B115617E4C /* Pods-DxySwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EBFDB8BF7D72C798155F8F833DA79F /* Pods-DxySwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B4F8CA16980E986E9E376185CFADBE64 /* DxySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E13F59EC852016BF45CE9F6906F80732 /* DxySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5BD89112D169EF6A5B3D80917425F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B69A52425413E6D16F3735D6940D38BF /* 017_析构过程.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F121E106D956216B678F6F3BF544740 /* 017_析构过程.swift */; };
+		B54BAAF897218AA18F6384D3E9462A66 /* 016_构造过程.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57880B65E2AEF8CD791A7667ADDF06BB /* 016_构造过程.swift */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BAEAC36936D2A577C58E097C2CF5F724 /* Pods-DxySwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B81C4D2C15039A4258E1CA9DA9C32E /* Pods-DxySwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3508CF2EC58871103B823AF08CA1472 /* 008_函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E4F837F8E1E07E8E530D1A518BCCF /* 008_函数.swift */; };
+		C262EC8AA0CD7DD857D23DCE6C11A7AF /* 012_属性.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B8A3D35030159EB217985387437FD /* 012_属性.swift */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7C5BA43B2EB0CC785365BB040C9E7D1 /* 026_自动引用计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730E4C41416566FC63B8C3ACDD53B79 /* 026_自动引用计数.swift */; };
+		C5AE44AC3989EA68FF164EBD76660C9A /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDB1AF20DB3608DCE07C83503422639 /* Wrapper.swift */; };
+		C5D88A65B2608757B4BC318F9308E9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		C773E71A35B1F774E8EECA3A16DC0342 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAA4F158AE086DDC05895DAA2D205D /* Shape.swift */; };
+		C8D085E100ADF904F987B984D6E911AD /* 018_可选链.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171014070A2085041864B0CB7D196F9 /* 018_可选链.swift */; };
+		CC22D4C1E56A1BA7DA119444D4C8A818 /* 011_类和结构体.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D92D3A52988D61140563560D910E3B /* 011_类和结构体.swift */; };
+		CD8477BD720CE44C9011D5ABA8571A6A /* 009_闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE06C689B7AA05C9C764500007B66E2 /* 009_闭包.swift */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D2C03C94FCE0A4B861F2732987F6B8CC /* 003_基础部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DA40F82C1FD85FFA110B3EDD94701 /* 003_基础部分.swift */; };
+		D1E5AA9BD24A4117F01C881458B6EE29 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605776EAD50D8A763186707A4CDEC836 /* Base.swift */; };
+		D5563BCF67961D48B5E616DB6026409D /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5748076B09BC4C5E09E4CAA40159DD /* StudentModel.swift */; };
+		DA59A3B4BE7566DC417595B0B41706B8 /* ChildShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90607420964CB8774BE93BAE8D26CD3 /* ChildShape.swift */; };
+		DE794135A2496CAE683381095A80FCF4 /* 003_基础部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DC2A31D07847EBB77F015B07B83FD /* 003_基础部分.swift */; };
+		DF729FAE532D1303C77AC787282C2E90 /* 006_集合类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D344E34792256CD837729DD68424BBD /* 006_集合类型.swift */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E44BF67E8A7F69C0C9F6C17867CCE1C8 /* 001_关于swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA907C39959E6FBA4F4BB70A4387459 /* 001_关于swift.swift */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		EB7D6EB37D5E7ED337D7E18E65BFAE68 /* 013_方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DD417E80F13C6D4AE5B59AA0672B /* 013_方法.swift */; };
+		EECDD1E776725DA61F7276549BB80F6E /* 002_swift初见.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C54937B7DC87A676B4EAA080BB20FE /* 002_swift初见.swift */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F1DD8D5C0C9C7F17A62B7C4D93E5A27B /* Pods-DxySwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9917A92E0D1E70480ED9BFF4B09FD5 /* Pods-DxySwift_Example-dummy.m */; };
+		F2F90EAFCCAB00C9A048BF2946C3DB67 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0AB235BD167E8F7D10F25299193BE /* Protocol.swift */; };
+		F42BF9E9B9C9513DD9CF425AB75D3B6D /* 029_高级运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331F772A9E51134CC43F52FD3F655E8 /* 029_高级运算符.swift */; };
+		F6E6323337D370ED3271B5CAA8680917 /* SwiftProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8087A4496A84B459806A39AA40F121E5 /* SwiftProtocol.swift */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E9D87F26C286703422B39DABAA52DB /* 013_方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D1F75A2184CAE4B40CA09A506C934 /* 013_方法.swift */; };
+		FE13BB0C930205EDF3C32CCDB44E9AA9 /* 024_泛型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AE6F11567D146B020630C6BB8916E5 /* 024_泛型.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,98 +105,104 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00EB7211162FB37CCF404C6B8A0D64EF /* 007_控制流.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "007_控制流.swift"; sourceTree = "<group>"; };
+		01C54937B7DC87A676B4EAA080BB20FE /* 002_swift初见.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "002_swift初见.swift"; sourceTree = "<group>"; };
+		01FE2204A8EAE8EBC3E1045187C5CF57 /* ErrorHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorHandle.swift; path = DxySwift/Classes/ErrorHandle.swift; sourceTree = "<group>"; };
 		02B81C4D2C15039A4258E1CA9DA9C32E /* Pods-DxySwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DxySwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		02C0AB235BD167E8F7D10F25299193BE /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = DxySwift/Classes/Protocol.swift; sourceTree = "<group>"; };
 		042CA2F5D01450DBD0804A6B745170D9 /* Pods-DxySwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DxySwift_Example.modulemap"; sourceTree = "<group>"; };
-		0C86F963BA76A18FB3A3221C7C95DA87 /* StudentModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StudentModel.swift; path = DxySwift/Classes/StudentModel.swift; sourceTree = "<group>"; };
-		0E00CD14BC840A6D65D3B08DCD3065FB /* 006_集合类型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "006_集合类型.swift"; sourceTree = "<group>"; };
+		06FB17EE80D86FBB1124D51A7EFD2D7E /* 014_下标.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "014_下标.swift"; sourceTree = "<group>"; };
+		070BBF5D42C50D56DC312EB5575BEBB7 /* 020_类型转换.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "020_类型转换.swift"; sourceTree = "<group>"; };
+		0E5FA4340DE0B681422ED7FDCB5A73BC /* 021_嵌套类型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "021_嵌套类型.swift"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		11C08BDE474FEACDADC8C9794A3608C7 /* Pods_DxySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DxySwift_Example.framework; path = "Pods-DxySwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A0B795181F9AA6EF33007CCA5A2169 /* Pods-DxySwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DxySwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		18B4AC815D72EF7F7DD705D4DF29C424 /* 019_错误处理.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "019_错误处理.swift"; sourceTree = "<group>"; };
+		1901BD731348430B5E34786B4A265D10 /* Mutating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mutating.swift; path = DxySwift/Classes/Mutating.swift; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1E5E4F837F8E1E07E8E530D1A518BCCF /* 008_函数.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "008_函数.swift"; sourceTree = "<group>"; };
-		22C7EF82A63428D22C41C88EB5E1418E /* 011_类和结构体.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "011_类和结构体.swift"; sourceTree = "<group>"; };
+		1AF211C7BA2CFBF06BEDC5C58116B37F /* 022_扩展.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "022_扩展.swift"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		255FE117D6BAA4A44B782B596A1AEDF7 /* DxySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DxySwift-prefix.pch"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		292CAFA50D423A478990F3EB47FD113D /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = DxySwift/Classes/Protocol.swift; sourceTree = "<group>"; };
-		2CDFC12C1A183BE3EE8788AAB9B954A8 /* 021_嵌套类型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "021_嵌套类型.swift"; sourceTree = "<group>"; };
-		31217F905BCBC300EDA03D88C2FB5DA6 /* 029_高级运算符.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "029_高级运算符.swift"; sourceTree = "<group>"; };
+		2C7F92492C5ED3D5D0BA6E81F1DB9D60 /* 023_协议.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "023_协议.swift"; sourceTree = "<group>"; };
+		2D3EF15C4A3C1CEFC8CEB88B874A6693 /* 026_自动引用计数.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "026_自动引用计数.swift"; sourceTree = "<group>"; };
+		2D5748076B09BC4C5E09E4CAA40159DD /* StudentModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StudentModel.swift; path = DxySwift/Classes/StudentModel.swift; sourceTree = "<group>"; };
+		2DEAA4F158AE086DDC05895DAA2D205D /* Shape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = DxySwift/Classes/Shape.swift; sourceTree = "<group>"; };
+		3057A510ED247A5E50BE9BFBDC841C36 /* 005_字符串和字符.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "005_字符串和字符.swift"; sourceTree = "<group>"; };
+		371F531221ED4E77B7DC342C45C80D29 /* DxySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DxySwift.debug.xcconfig; sourceTree = "<group>"; };
 		37AC4DEE9ABACF73C5F23FFEF1E36817 /* Pods-DxySwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DxySwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E23CA448CB391A77A102E74D4150F0F /* 023_协议.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "023_协议.swift"; sourceTree = "<group>"; };
+		3A65844352082141D20ED503F481FD6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3AE06C689B7AA05C9C764500007B66E2 /* 009_闭包.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "009_闭包.swift"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		43AFFA06B5F61640EF7C5E9C7DED178B /* 004_基本运算符.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "004_基本运算符.swift"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		475C37E82FB3565D8BCC71808F17722F /* 024_泛型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "024_泛型.swift"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		534C1086C6E454924AD5A6DB6122D7D8 /* 002_swift初见.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "002_swift初见.swift"; sourceTree = "<group>"; };
-		54BCA0CF1F2F1C6600AC330D8CEA6405 /* Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base.swift; path = DxySwift/Classes/Base.swift; sourceTree = "<group>"; };
+		4E2D1F75A2184CAE4B40CA09A506C934 /* 013_方法.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "013_方法.swift"; sourceTree = "<group>"; };
 		56B1BEF5AE6E0FE34B50C5E3E6AC6E41 /* Pods-DxySwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DxySwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57880B65E2AEF8CD791A7667ADDF06BB /* 016_构造过程.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "016_构造过程.swift"; sourceTree = "<group>"; };
 		57FDA1C51A704D662F95BB3894CD8FCE /* Pods-DxySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DxySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		581A6E991222C70172C4CEEEF44271D5 /* Grammar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Grammar.swift; path = DxySwift/Classes/Grammar.swift; sourceTree = "<group>"; };
-		584834944374FB602B9A7DCFDF97DB46 /* DxySwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DxySwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		593DBE91C595D4647F862EC3A03CDF51 /* 025_不透明类型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "025_不透明类型.swift"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB58B23F930F834A90096C1496FD544 /* 015_继承.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "015_继承.swift"; sourceTree = "<group>"; };
+		5D344E34792256CD837729DD68424BBD /* 006_集合类型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "006_集合类型.swift"; sourceTree = "<group>"; };
 		5D3D173F4981699F5E542306E53CEE0F /* Pods-DxySwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DxySwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5D965155EE31E559B2D05B4D0686EA8B /* DxySwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DxySwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5F121E106D956216B678F6F3BF544740 /* 017_析构过程.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "017_析构过程.swift"; sourceTree = "<group>"; };
-		62AB2AC4355DCEF790CED436E38B614A /* 018_可选链.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "018_可选链.swift"; sourceTree = "<group>"; };
+		605776EAD50D8A763186707A4CDEC836 /* Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base.swift; path = DxySwift/Classes/Base.swift; sourceTree = "<group>"; };
+		64D897E8248212FEFF72596DFCCB6254 /* 028_访问控制.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "028_访问控制.swift"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6709B17413FC06A32C708A2EA90F71B1 /* 027_内存安全.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "027_内存安全.swift"; sourceTree = "<group>"; };
-		6836C579DF59C20178C68C7A00BB3E29 /* 014_下标.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "014_下标.swift"; sourceTree = "<group>"; };
+		68EFC72C77FC6F04A545F9E9BEDA08F1 /* 017_析构过程.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "017_析构过程.swift"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		72C949537F7353E6040726430B1A5702 /* Pods-DxySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DxySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		77FF181DD6F7ECBEA1B10E78FF2E927D /* DxySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DxySwift.release.xcconfig; sourceTree = "<group>"; };
+		7572E31F74ECEEDDB7B75F9FABDE1935 /* 027_内存安全.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "027_内存安全.swift"; sourceTree = "<group>"; };
+		769D7E89260CC766AC0F3A9C35994CDD /* 025_不透明类型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "025_不透明类型.swift"; sourceTree = "<group>"; };
 		79AD1512DBEAE16BF386A6C4D65C557F /* Pods-DxySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DxySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7EAB4F7D7D514036D53C8DF4C0363F6F /* DxySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DxySwift-Info.plist"; sourceTree = "<group>"; };
-		81EED0979582D63596139A5A9AD79E98 /* Shape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = DxySwift/Classes/Shape.swift; sourceTree = "<group>"; };
+		8087A4496A84B459806A39AA40F121E5 /* SwiftProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftProtocol.swift; path = DxySwift/Classes/SwiftProtocol.swift; sourceTree = "<group>"; };
 		86EBFDB8BF7D72C798155F8F833DA79F /* Pods-DxySwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DxySwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		873E055E87FEB4F461ED9689EBFB1FAD /* 009_闭包.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "009_闭包.swift"; sourceTree = "<group>"; };
-		8759DD417E80F13C6D4AE5B59AA0672B /* 013_方法.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "013_方法.swift"; sourceTree = "<group>"; };
+		871749A9B703EC358A3156BD7132F6E4 /* DxySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DxySwift.release.xcconfig; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8997A192FF877501D29A7906D6192ACB /* DxySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DxySwift.modulemap; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		8F400AF7F3B19D8C7103A54581ADEB08 /* DxySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DxySwift.framework; path = DxySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B255CC03A81112CD5FCE726454E8B2 /* DxySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DxySwift-prefix.pch"; sourceTree = "<group>"; };
+		90E9FC25024D758C827395B4431BB0C9 /* 001_关于swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "001_关于swift.swift"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		95B54D0EF3215C4A6E2554D5FEAE8437 /* ChildShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildShape.swift; path = DxySwift/Classes/ChildShape.swift; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		96FA81E3977D5835BCF191213096CC7E /* 020_类型转换.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "020_类型转换.swift"; sourceTree = "<group>"; };
-		982DE68E8160AA53571359A90D6EC1EE /* 005_字符串和字符.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "005_字符串和字符.swift"; sourceTree = "<group>"; };
-		989DEB9CC3E2B679679361DCC27E4F12 /* 010_枚举.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "010_枚举.swift"; sourceTree = "<group>"; };
+		965B8A3D35030159EB217985387437FD /* 012_属性.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "012_属性.swift"; sourceTree = "<group>"; };
+		96AE6F11567D146B020630C6BB8916E5 /* 024_泛型.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "024_泛型.swift"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9AA547BE836CC6A3786502C1129B7DE4 /* 015_继承.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "015_继承.swift"; sourceTree = "<group>"; };
-		9B35220CCD292EE6EF31EBBB7EE3C736 /* DxySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DxySwift.modulemap; sourceTree = "<group>"; };
 		9C24EE389C0D0EA4E018D75A422D8D30 /* Pods-DxySwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DxySwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A23F01E62065D11E68F5B5457FDFBEBE /* DxySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DxySwift.debug.xcconfig; sourceTree = "<group>"; };
-		A8DAC906D94CE454888FF5F9AE5B4493 /* 019_错误处理.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "019_错误处理.swift"; sourceTree = "<group>"; };
+		A7D92D3A52988D61140563560D910E3B /* 011_类和结构体.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "011_类和结构体.swift"; sourceTree = "<group>"; };
+		A890414D8A2A60E2304916EA451B7807 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA5D97095CD948F2224DDFDBBF22D977 /* DxySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DxySwift-umbrella.h"; sourceTree = "<group>"; };
 		AACD495851E345533C3E1C7A599FF2A1 /* Pods-DxySwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DxySwift_Tests.modulemap"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AEECB0671C5ADE176A40611F111FFF44 /* Grammar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Grammar.swift; path = DxySwift/Classes/Grammar.swift; sourceTree = "<group>"; };
+		AFDB1AF20DB3608DCE07C83503422639 /* Wrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wrapper.swift; path = DxySwift/Classes/Wrapper.swift; sourceTree = "<group>"; };
 		B0D5216D5FB4422241E4097A528A8C6B /* Pods-DxySwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DxySwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		B473D2A2603D2C62AB32F40E1B43786E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B531E472CDA4C77423B57BA87EDEA076 /* 012_属性.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "012_属性.swift"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		C6E4A282CC587A43E32EC66561390B79 /* 004_基本运算符.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "004_基本运算符.swift"; sourceTree = "<group>"; };
-		C8DDC1CF754EA263FE5D911BEBFEF5DF /* 016_构造过程.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "016_构造过程.swift"; sourceTree = "<group>"; };
+		C0ED48DAD3C3C4D072E1B441E0DE9E05 /* 008_函数.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "008_函数.swift"; sourceTree = "<group>"; };
+		C331F772A9E51134CC43F52FD3F655E8 /* 029_高级运算符.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "029_高级运算符.swift"; sourceTree = "<group>"; };
+		C90607420964CB8774BE93BAE8D26CD3 /* ChildShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildShape.swift; path = DxySwift/Classes/ChildShape.swift; sourceTree = "<group>"; };
+		C960DC1275F126BDB093FFDC2A23FAA2 /* DxySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DxySwift-dummy.m"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CDA704327B99FF717F2F7465DE28F3C3 /* Pods-DxySwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DxySwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEA907C39959E6FBA4F4BB70A4387459 /* 001_关于swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "001_关于swift.swift"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D12503AD73F28DFFD95116DFC1C9FC7D /* Pods-DxySwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DxySwift_Example-Info.plist"; sourceTree = "<group>"; };
 		D12EEFE37C2EA695BB7DBCED428F4735 /* Pods-DxySwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DxySwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D171014070A2085041864B0CB7D196F9 /* 018_可选链.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "018_可选链.swift"; sourceTree = "<group>"; };
 		D4EE379D72315FF5F22D0AB39B06B047 /* Pods-DxySwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DxySwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		D7B0AB1803BACF7FA3CAB41C4CBBD986 /* DxySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DxySwift-Info.plist"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DC86359A9E2E5A211EDEFD571386D320 /* 022_扩展.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "022_扩展.swift"; sourceTree = "<group>"; };
-		DF4DA40F82C1FD85FFA110B3EDD94701 /* 003_基础部分.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "003_基础部分.swift"; sourceTree = "<group>"; };
-		E13F59EC852016BF45CE9F6906F80732 /* DxySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DxySwift-umbrella.h"; sourceTree = "<group>"; };
-		E730E4C41416566FC63B8C3ACDD53B79 /* 026_自动引用计数.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "026_自动引用计数.swift"; sourceTree = "<group>"; };
+		DD099AB394F61D94A7F1E3ECDBDDB961 /* Subscript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscript.swift; path = DxySwift/Classes/Subscript.swift; sourceTree = "<group>"; };
+		E5B9B6CF1F59720F75FD82C2EE4D8775 /* Structure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Structure.swift; path = DxySwift/Classes/Structure.swift; sourceTree = "<group>"; };
 		ED9917A92E0D1E70480ED9BFF4B09FD5 /* Pods-DxySwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DxySwift_Example-dummy.m"; sourceTree = "<group>"; };
-		EE651EE25EDC5A7F164EF38D1EAEF9FA /* DxySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DxySwift-dummy.m"; sourceTree = "<group>"; };
-		F1F86E65080825477C2FF8A3F2AA635A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F7EB6A90BB0EDF624FBE9E3B29698B2E /* 028_访问控制.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "028_访问控制.swift"; sourceTree = "<group>"; };
+		F49DC2A31D07847EBB77F015B07B83FD /* 003_基础部分.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "003_基础部分.swift"; sourceTree = "<group>"; };
+		F6F4B103DDFAFF213F77137DD122949D /* 007_控制流.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "007_控制流.swift"; sourceTree = "<group>"; };
+		F754E408B706EC23045C047B298AABA3 /* 010_枚举.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "010_枚举.swift"; sourceTree = "<group>"; };
 		FDCFFE4483F3F143726B47CBF47E7141 /* Pods_DxySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DxySwift_Tests.framework; path = "Pods-DxySwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,14 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BDBD9C68F2B50290D36F9BED469AB18 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8327D17F9B9113A06E209C902E53C62B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5BD89112D169EF6A5B3D80917425F62 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,61 +235,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED09991A54A10C695FC30C7CC4154387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D88A65B2608757B4BC318F9308E9BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		202905EA24F9BE24511D0B56C40D2F0A /* DxySwift */ = {
+		18E8DD232DC4939C5B6E5798276C8748 /* DxySwift */ = {
 			isa = PBXGroup;
 			children = (
-				54BCA0CF1F2F1C6600AC330D8CEA6405 /* Base.swift */,
-				95B54D0EF3215C4A6E2554D5FEAE8437 /* ChildShape.swift */,
-				581A6E991222C70172C4CEEEF44271D5 /* Grammar.swift */,
-				292CAFA50D423A478990F3EB47FD113D /* Protocol.swift */,
-				81EED0979582D63596139A5A9AD79E98 /* Shape.swift */,
-				0C86F963BA76A18FB3A3221C7C95DA87 /* StudentModel.swift */,
-				36414ABEA6C5B6047C5DCCAE10ECCDBB /* _course */,
-				8D9D486141604B6697E85CCDB26B1662 /* Pod */,
-				8ABF1FA26C8D7FEF5F5B7F9F7DE0138D /* Support Files */,
+				605776EAD50D8A763186707A4CDEC836 /* Base.swift */,
+				C90607420964CB8774BE93BAE8D26CD3 /* ChildShape.swift */,
+				01FE2204A8EAE8EBC3E1045187C5CF57 /* ErrorHandle.swift */,
+				AEECB0671C5ADE176A40611F111FFF44 /* Grammar.swift */,
+				1901BD731348430B5E34786B4A265D10 /* Mutating.swift */,
+				02C0AB235BD167E8F7D10F25299193BE /* Protocol.swift */,
+				2DEAA4F158AE086DDC05895DAA2D205D /* Shape.swift */,
+				E5B9B6CF1F59720F75FD82C2EE4D8775 /* Structure.swift */,
+				2D5748076B09BC4C5E09E4CAA40159DD /* StudentModel.swift */,
+				DD099AB394F61D94A7F1E3ECDBDDB961 /* Subscript.swift */,
+				8087A4496A84B459806A39AA40F121E5 /* SwiftProtocol.swift */,
+				AFDB1AF20DB3608DCE07C83503422639 /* Wrapper.swift */,
+				CE40F516917E02B06FF723A1256D3E6C /* _course */,
+				64F811AE1F62B2ACEF8D5A84996C332D /* Pod */,
+				A3C1D00A464DA31D96C3A0F63614A86D /* Support Files */,
 			);
 			name = DxySwift;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		36414ABEA6C5B6047C5DCCAE10ECCDBB /* _course */ = {
-			isa = PBXGroup;
-			children = (
-				CEA907C39959E6FBA4F4BB70A4387459 /* 001_关于swift.swift */,
-				534C1086C6E454924AD5A6DB6122D7D8 /* 002_swift初见.swift */,
-				DF4DA40F82C1FD85FFA110B3EDD94701 /* 003_基础部分.swift */,
-				C6E4A282CC587A43E32EC66561390B79 /* 004_基本运算符.swift */,
-				982DE68E8160AA53571359A90D6EC1EE /* 005_字符串和字符.swift */,
-				0E00CD14BC840A6D65D3B08DCD3065FB /* 006_集合类型.swift */,
-				00EB7211162FB37CCF404C6B8A0D64EF /* 007_控制流.swift */,
-				1E5E4F837F8E1E07E8E530D1A518BCCF /* 008_函数.swift */,
-				873E055E87FEB4F461ED9689EBFB1FAD /* 009_闭包.swift */,
-				989DEB9CC3E2B679679361DCC27E4F12 /* 010_枚举.swift */,
-				22C7EF82A63428D22C41C88EB5E1418E /* 011_类和结构体.swift */,
-				B531E472CDA4C77423B57BA87EDEA076 /* 012_属性.swift */,
-				8759DD417E80F13C6D4AE5B59AA0672B /* 013_方法.swift */,
-				6836C579DF59C20178C68C7A00BB3E29 /* 014_下标.swift */,
-				9AA547BE836CC6A3786502C1129B7DE4 /* 015_继承.swift */,
-				C8DDC1CF754EA263FE5D911BEBFEF5DF /* 016_构造过程.swift */,
-				5F121E106D956216B678F6F3BF544740 /* 017_析构过程.swift */,
-				62AB2AC4355DCEF790CED436E38B614A /* 018_可选链.swift */,
-				A8DAC906D94CE454888FF5F9AE5B4493 /* 019_错误处理.swift */,
-				96FA81E3977D5835BCF191213096CC7E /* 020_类型转换.swift */,
-				2CDFC12C1A183BE3EE8788AAB9B954A8 /* 021_嵌套类型.swift */,
-				DC86359A9E2E5A211EDEFD571386D320 /* 022_扩展.swift */,
-				3E23CA448CB391A77A102E74D4150F0F /* 023_协议.swift */,
-				475C37E82FB3565D8BCC71808F17722F /* 024_泛型.swift */,
-				593DBE91C595D4647F862EC3A03CDF51 /* 025_不透明类型.swift */,
-				E730E4C41416566FC63B8C3ACDD53B79 /* 026_自动引用计数.swift */,
-				6709B17413FC06A32C708A2EA90F71B1 /* 027_内存安全.swift */,
-				F7EB6A90BB0EDF624FBE9E3B29698B2E /* 028_访问控制.swift */,
-				31217F905BCBC300EDA03D88C2FB5DA6 /* 029_高级运算符.swift */,
-			);
-			name = _course;
-			path = DxySwift/Classes/_course;
 			sourceTree = "<group>";
 		};
 		39A0348061365375B77DE6DB1E7BA441 /* Targets Support Files */ = {
@@ -318,6 +299,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		64F811AE1F62B2ACEF8D5A84996C332D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D965155EE31E559B2D05B4D0686EA8B /* DxySwift.podspec */,
+				A890414D8A2A60E2304916EA451B7807 /* LICENSE */,
+				3A65844352082141D20ED503F481FD6C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,21 +320,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8ABF1FA26C8D7FEF5F5B7F9F7DE0138D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B35220CCD292EE6EF31EBBB7EE3C736 /* DxySwift.modulemap */,
-				EE651EE25EDC5A7F164EF38D1EAEF9FA /* DxySwift-dummy.m */,
-				7EAB4F7D7D514036D53C8DF4C0363F6F /* DxySwift-Info.plist */,
-				92B255CC03A81112CD5FCE726454E8B2 /* DxySwift-prefix.pch */,
-				E13F59EC852016BF45CE9F6906F80732 /* DxySwift-umbrella.h */,
-				A23F01E62065D11E68F5B5457FDFBEBE /* DxySwift.debug.xcconfig */,
-				77FF181DD6F7ECBEA1B10E78FF2E927D /* DxySwift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DxySwift";
-			sourceTree = "<group>";
-		};
 		8C3AD9606B37F8C00C3A7521D168A635 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,16 +329,6 @@
 				FDCFFE4483F3F143726B47CBF47E7141 /* Pods_DxySwift_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8D9D486141604B6697E85CCDB26B1662 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				584834944374FB602B9A7DCFDF97DB46 /* DxySwift.podspec */,
-				F1F86E65080825477C2FF8A3F2AA635A /* LICENSE */,
-				B473D2A2603D2C62AB32F40E1B43786E /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8E3D2E3B74FE0CE8578151B67BE79A8F /* Pods-DxySwift_Tests */ = {
@@ -388,6 +354,29 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		943092A8C768EC7E399C8BD3CD3997D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18E8DD232DC4939C5B6E5798276C8748 /* DxySwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3C1D00A464DA31D96C3A0F63614A86D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8997A192FF877501D29A7906D6192ACB /* DxySwift.modulemap */,
+				C960DC1275F126BDB093FFDC2A23FAA2 /* DxySwift-dummy.m */,
+				D7B0AB1803BACF7FA3CAB41C4CBBD986 /* DxySwift-Info.plist */,
+				255FE117D6BAA4A44B782B596A1AEDF7 /* DxySwift-prefix.pch */,
+				AA5D97095CD948F2224DDFDBBF22D977 /* DxySwift-umbrella.h */,
+				371F531221ED4E77B7DC342C45C80D29 /* DxySwift.debug.xcconfig */,
+				871749A9B703EC358A3156BD7132F6E4 /* DxySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DxySwift";
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -424,19 +413,48 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		C575E5F67CBFC41F203E024C249CD6B7 /* Development Pods */ = {
+		CE40F516917E02B06FF723A1256D3E6C /* _course */ = {
 			isa = PBXGroup;
 			children = (
-				202905EA24F9BE24511D0B56C40D2F0A /* DxySwift */,
+				90E9FC25024D758C827395B4431BB0C9 /* 001_关于swift.swift */,
+				01C54937B7DC87A676B4EAA080BB20FE /* 002_swift初见.swift */,
+				F49DC2A31D07847EBB77F015B07B83FD /* 003_基础部分.swift */,
+				43AFFA06B5F61640EF7C5E9C7DED178B /* 004_基本运算符.swift */,
+				3057A510ED247A5E50BE9BFBDC841C36 /* 005_字符串和字符.swift */,
+				5D344E34792256CD837729DD68424BBD /* 006_集合类型.swift */,
+				F6F4B103DDFAFF213F77137DD122949D /* 007_控制流.swift */,
+				C0ED48DAD3C3C4D072E1B441E0DE9E05 /* 008_函数.swift */,
+				3AE06C689B7AA05C9C764500007B66E2 /* 009_闭包.swift */,
+				F754E408B706EC23045C047B298AABA3 /* 010_枚举.swift */,
+				A7D92D3A52988D61140563560D910E3B /* 011_类和结构体.swift */,
+				965B8A3D35030159EB217985387437FD /* 012_属性.swift */,
+				4E2D1F75A2184CAE4B40CA09A506C934 /* 013_方法.swift */,
+				06FB17EE80D86FBB1124D51A7EFD2D7E /* 014_下标.swift */,
+				5CB58B23F930F834A90096C1496FD544 /* 015_继承.swift */,
+				57880B65E2AEF8CD791A7667ADDF06BB /* 016_构造过程.swift */,
+				68EFC72C77FC6F04A545F9E9BEDA08F1 /* 017_析构过程.swift */,
+				D171014070A2085041864B0CB7D196F9 /* 018_可选链.swift */,
+				18B4AC815D72EF7F7DD705D4DF29C424 /* 019_错误处理.swift */,
+				070BBF5D42C50D56DC312EB5575BEBB7 /* 020_类型转换.swift */,
+				0E5FA4340DE0B681422ED7FDCB5A73BC /* 021_嵌套类型.swift */,
+				1AF211C7BA2CFBF06BEDC5C58116B37F /* 022_扩展.swift */,
+				2C7F92492C5ED3D5D0BA6E81F1DB9D60 /* 023_协议.swift */,
+				96AE6F11567D146B020630C6BB8916E5 /* 024_泛型.swift */,
+				769D7E89260CC766AC0F3A9C35994CDD /* 025_不透明类型.swift */,
+				2D3EF15C4A3C1CEFC8CEB88B874A6693 /* 026_自动引用计数.swift */,
+				7572E31F74ECEEDDB7B75F9FABDE1935 /* 027_内存安全.swift */,
+				64D897E8248212FEFF72596DFCCB6254 /* 028_访问控制.swift */,
+				C331F772A9E51134CC43F52FD3F655E8 /* 029_高级运算符.swift */,
 			);
-			name = "Development Pods";
+			name = _course;
+			path = DxySwift/Classes/_course;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C575E5F67CBFC41F203E024C249CD6B7 /* Development Pods */,
+				943092A8C768EC7E399C8BD3CD3997D6 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				8C3AD9606B37F8C00C3A7521D168A635 /* Products */,
@@ -503,11 +521,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE957187801F5EE1C1EFC6ED21883C37 /* Headers */ = {
+		E0BAA5FE9A8DCE3AC6116FA3D5773922 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F8CA16980E986E9E376185CFADBE64 /* DxySwift-umbrella.h in Headers */,
+				784FCCBCE1E496FF5C1E642662EA42D2 /* DxySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,12 +554,12 @@
 		};
 		7AA35DBBF67C4ED481838A3B21329EE1 /* DxySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E139DB6E67747D40B229EBC842B6541E /* Build configuration list for PBXNativeTarget "DxySwift" */;
+			buildConfigurationList = 3330B3DC170C3E153C17834C63C5514A /* Build configuration list for PBXNativeTarget "DxySwift" */;
 			buildPhases = (
-				FE957187801F5EE1C1EFC6ED21883C37 /* Headers */,
-				0D8FC1893B886999FF3D0C40ACB93F39 /* Sources */,
-				8327D17F9B9113A06E209C902E53C62B /* Frameworks */,
-				89137BA0A28633B5B0105394562A0FF9 /* Resources */,
+				E0BAA5FE9A8DCE3AC6116FA3D5773922 /* Headers */,
+				A24719A2A3B01452655AFFCC111D1A02 /* Sources */,
+				ED09991A54A10C695FC30C7CC4154387 /* Frameworks */,
+				2F187FA37AF46C3EF2CFDB8BEC828F78 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -627,6 +645,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F187FA37AF46C3EF2CFDB8BEC828F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C6F7EBE41A6DD18B669D430BF750149 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,56 +666,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89137BA0A28633B5B0105394562A0FF9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D8FC1893B886999FF3D0C40ACB93F39 /* Sources */ = {
+		A24719A2A3B01452655AFFCC111D1A02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44BF67E8A7F69C0C9F6C17867CCE1C8 /* 001_关于swift.swift in Sources */,
-				9F4A24EBCC3FDC9D77065EE0897DD171 /* 002_swift初见.swift in Sources */,
-				D2C03C94FCE0A4B861F2732987F6B8CC /* 003_基础部分.swift in Sources */,
-				694C0A120EF7330A4797498EAE947D1F /* 004_基本运算符.swift in Sources */,
-				83BB26E4A24A31F98FD313F22BC3DD95 /* 005_字符串和字符.swift in Sources */,
-				2D0A02B81B48EBE4731718BC2C842F36 /* 006_集合类型.swift in Sources */,
-				2A3ED0F61D3A3632B9C01C182609F08C /* 007_控制流.swift in Sources */,
-				C3508CF2EC58871103B823AF08CA1472 /* 008_函数.swift in Sources */,
-				8B5625FC3BCF3D5EC9E1D1BA3C99EE6D /* 009_闭包.swift in Sources */,
-				320F7347C00F5C99871BC1BE3702B26C /* 010_枚举.swift in Sources */,
-				34B956E4A2506CA3FAE7D4AFD345F641 /* 011_类和结构体.swift in Sources */,
-				A284424B698DC66F3A09B184F21E1958 /* 012_属性.swift in Sources */,
-				EB7D6EB37D5E7ED337D7E18E65BFAE68 /* 013_方法.swift in Sources */,
-				4227ABC3350E0E9F99C4474608C3DD01 /* 014_下标.swift in Sources */,
-				131972C057B45AB48F9346CE94FF6169 /* 015_继承.swift in Sources */,
-				ABA3285641C024D42526559D3C7203B5 /* 016_构造过程.swift in Sources */,
-				B69A52425413E6D16F3735D6940D38BF /* 017_析构过程.swift in Sources */,
-				81EE96685192F0E0E431265C4A5668F2 /* 018_可选链.swift in Sources */,
-				73935AD93D9D3FC769881B46AE5ACCE0 /* 019_错误处理.swift in Sources */,
-				8F30497B80D7DE56E24C4B4C6C09DCCF /* 020_类型转换.swift in Sources */,
-				9E24F73AFFEDEB8F592F89DF9C132940 /* 021_嵌套类型.swift in Sources */,
-				2174E6630AAAB67769C517C698F30D3D /* 022_扩展.swift in Sources */,
-				46E4AAE4171E951CC774055A851C5376 /* 023_协议.swift in Sources */,
-				7B7A0796370B2C1570AC38605BDFBBA8 /* 024_泛型.swift in Sources */,
-				9EC9D9E5649846A07F06A761DE5645C1 /* 025_不透明类型.swift in Sources */,
-				C7C5BA43B2EB0CC785365BB040C9E7D1 /* 026_自动引用计数.swift in Sources */,
-				56CDD319F64D78D034DFD490D73021CF /* 027_内存安全.swift in Sources */,
-				849F46C246286B6D4E2B5033C75F864A /* 028_访问控制.swift in Sources */,
-				0D8A8F0EAAC595176705138EE7FEEC0C /* 029_高级运算符.swift in Sources */,
-				7D8130CDA086FBA2104C548977155EEE /* Base.swift in Sources */,
-				3939CD55072193C4DC626BF43D281A04 /* ChildShape.swift in Sources */,
-				8D33334A6BCA6BBB32D38901B9441BB1 /* DxySwift-dummy.m in Sources */,
-				7A19203745C4CD245CB5F17CB64BBFCB /* Grammar.swift in Sources */,
-				961FA5338D0848986F29F31F7BB672D4 /* Protocol.swift in Sources */,
-				94734C2D39247E59182B7306D1AE90AD /* Shape.swift in Sources */,
-				647F4D1E1C9B9CCB21789E2B0CCA331E /* StudentModel.swift in Sources */,
+				106DCAC5A991B9C04EC0159D02F5898D /* 001_关于swift.swift in Sources */,
+				EECDD1E776725DA61F7276549BB80F6E /* 002_swift初见.swift in Sources */,
+				DE794135A2496CAE683381095A80FCF4 /* 003_基础部分.swift in Sources */,
+				9A2ACDAD2AF2068770E2483CF35A70C9 /* 004_基本运算符.swift in Sources */,
+				93049217F073F517B1234F05B3FBC9EB /* 005_字符串和字符.swift in Sources */,
+				DF729FAE532D1303C77AC787282C2E90 /* 006_集合类型.swift in Sources */,
+				339D0FE8B5EF60AB36DA5DE36684D4FA /* 007_控制流.swift in Sources */,
+				897A26C524AAA691F6005CC832962B12 /* 008_函数.swift in Sources */,
+				CD8477BD720CE44C9011D5ABA8571A6A /* 009_闭包.swift in Sources */,
+				7583BD9BC629CEA9286847CDD857BC53 /* 010_枚举.swift in Sources */,
+				CC22D4C1E56A1BA7DA119444D4C8A818 /* 011_类和结构体.swift in Sources */,
+				C262EC8AA0CD7DD857D23DCE6C11A7AF /* 012_属性.swift in Sources */,
+				F8E9D87F26C286703422B39DABAA52DB /* 013_方法.swift in Sources */,
+				3A2C034BA5FB71FC575E1B713C643EDF /* 014_下标.swift in Sources */,
+				7C6D2263F4A22B973FE018ECBAB64535 /* 015_继承.swift in Sources */,
+				B54BAAF897218AA18F6384D3E9462A66 /* 016_构造过程.swift in Sources */,
+				147203E6F2B3E0A013AB5E7FF26E6AA0 /* 017_析构过程.swift in Sources */,
+				C8D085E100ADF904F987B984D6E911AD /* 018_可选链.swift in Sources */,
+				63E733F2688C23307D8CFDA158826B9B /* 019_错误处理.swift in Sources */,
+				633E865694EEFF9B8E856E42D5EF5382 /* 020_类型转换.swift in Sources */,
+				49C99BE01ACABC9BDA84969C22DD89B5 /* 021_嵌套类型.swift in Sources */,
+				A562A2B09A19E99D226339F80E801049 /* 022_扩展.swift in Sources */,
+				1F8A4B0177AE5CF3AD43FC0A71BEA2C4 /* 023_协议.swift in Sources */,
+				FE13BB0C930205EDF3C32CCDB44E9AA9 /* 024_泛型.swift in Sources */,
+				33B7B2DE3DA9C56D4A642A17E361DAAA /* 025_不透明类型.swift in Sources */,
+				1C5E119FAF3974EDA10B14F4B5D565B8 /* 026_自动引用计数.swift in Sources */,
+				88E71A310DC23E3D64C4305F7757241F /* 027_内存安全.swift in Sources */,
+				2F3295F8539F96243805F6CB811231DA /* 028_访问控制.swift in Sources */,
+				F42BF9E9B9C9513DD9CF425AB75D3B6D /* 029_高级运算符.swift in Sources */,
+				D1E5AA9BD24A4117F01C881458B6EE29 /* Base.swift in Sources */,
+				DA59A3B4BE7566DC417595B0B41706B8 /* ChildShape.swift in Sources */,
+				31F38CD3993001EAE133F3B039BDC4E1 /* DxySwift-dummy.m in Sources */,
+				974D480A63D00527E8457A99D2279359 /* ErrorHandle.swift in Sources */,
+				55D052F4E5B2F046660792D7B805D4BC /* Grammar.swift in Sources */,
+				98E2E67BDF98BF5F18A2EAB4D5882421 /* Mutating.swift in Sources */,
+				F2F90EAFCCAB00C9A048BF2946C3DB67 /* Protocol.swift in Sources */,
+				C773E71A35B1F774E8EECA3A16DC0342 /* Shape.swift in Sources */,
+				8D8BAFE8075FD0566E123A3C106C20B8 /* Structure.swift in Sources */,
+				D5563BCF67961D48B5E616DB6026409D /* StudentModel.swift in Sources */,
+				401BD28B54DBE727512C684C94B3E2DD /* Subscript.swift in Sources */,
+				F6E6323337D370ED3271B5CAA8680917 /* SwiftProtocol.swift in Sources */,
+				C5AE44AC3989EA68FF164EBD76660C9A /* Wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,38 +840,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3F2F681C95BD98156CAFF4A90F52258B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77FF181DD6F7ECBEA1B10E78FF2E927D /* DxySwift.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DxySwift/DxySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DxySwift/DxySwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DxySwift/DxySwift.modulemap";
-				PRODUCT_MODULE_NAME = DxySwift;
-				PRODUCT_NAME = DxySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1004,6 +996,69 @@
 			};
 			name = Debug;
 		};
+		AD855ECD6A5083983808C5436FB76945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871749A9B703EC358A3156BD7132F6E4 /* DxySwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DxySwift/DxySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DxySwift/DxySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DxySwift/DxySwift.modulemap";
+				PRODUCT_MODULE_NAME = DxySwift;
+				PRODUCT_NAME = DxySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B685E20E0E75211751F361D01C861EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371F531221ED4E77B7DC342C45C80D29 /* DxySwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DxySwift/DxySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DxySwift/DxySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DxySwift/DxySwift.modulemap";
+				PRODUCT_MODULE_NAME = DxySwift;
+				PRODUCT_NAME = DxySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
@@ -1070,37 +1125,6 @@
 			};
 			name = Release;
 		};
-		EC5C4553DCD954E56365193E7F99F3BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A23F01E62065D11E68F5B5457FDFBEBE /* DxySwift.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DxySwift/DxySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DxySwift/DxySwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DxySwift/DxySwift.modulemap";
-				PRODUCT_MODULE_NAME = DxySwift;
-				PRODUCT_NAME = DxySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EF8EA84AF2643DB1647E80F32B609A4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14A0B795181F9AA6EF33007CCA5A2169 /* Pods-DxySwift_Example.debug.xcconfig */;
@@ -1137,6 +1161,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3330B3DC170C3E153C17834C63C5514A /* Build configuration list for PBXNativeTarget "DxySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B685E20E0E75211751F361D01C861EAC /* Debug */,
+				AD855ECD6A5083983808C5436FB76945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1169,15 +1202,6 @@
 			buildConfigurations = (
 				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
 				BE874B114A0991701B09229EAAA4CA84 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E139DB6E67747D40B229EBC842B6541E /* Build configuration list for PBXNativeTarget "DxySwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC5C4553DCD954E56365193E7F99F3BB /* Debug */,
-				3F2F681C95BD98156CAFF4A90F52258B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

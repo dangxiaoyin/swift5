@@ -52,7 +52,21 @@ public class StudentModel: NSObject {
     }
     var age: Int?
     var hasComputer: Bool = false
-    var info: Dictionary<String, Any>?
+    var info: Dictionary<String, Any>? {
+        // 属性观察器
+        // 属性观察器监控和响应属性值的变化，每次属性被设置值的时候都会调用属性观察器，即使新值和当前值相同的时候也不例外
+        
+        // 注意: 在父类初始化方法调用之后，在子类构造器中给父类的属性赋值时，会调用父类属性的 willSet 和 didSet 观察器。而在父类初始化方法调用之前，给子类的属性赋值时不会调用子类属性的观察器
+        
+        // 在新的值被设置之前调用
+        willSet {
+            print("new value %@", newValue ?? Dictionary<String,Any>.self)
+        }
+        // didSet 在新的值被设置之后调用
+        didSet {
+            print("-- %@", info ?? Dictionary<String,Any>.self)
+        }
+    }
     var level: Level? = .unknow
     
 }
